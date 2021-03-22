@@ -1,0 +1,91 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 26rem;
+    font-size: 40px;
+}
+
+h2{
+   text-shadow: 4px 2px 5px rgba(154, 150, 150, 0.54);
+}
+
+span{
+    color: #04c2c9
+}
+
+.git {
+    display: block;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: all 200ms ease;
+    font-size: 20px;
+}
+
+.git:hover{
+    color: #04c2c9;
+}
+
+@media(max-width: 600px){
+
+    #header h1 {
+        font-size: 30px;
+    }
+
+    .menu li a {
+        font-size: 18px;
+    }
+
+    #main{
+        font-size: 35px;
+    }
+
+    .git{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 500px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+    }
+
+    #main{
+        font-size: 30px;
+        height: 40rem;
+    }
+}
+
+@media(max-width: 410px){
+    #main {
+        font-size: 26px;
+    }
+
+    .git {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 350px){
+    #main {
+        font-size: 23px;
+    }
+
+    .git {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 330px){
+    #main {
+        font-size: 21px;
+    }
+}
