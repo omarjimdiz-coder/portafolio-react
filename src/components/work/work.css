@@ -12,12 +12,16 @@
 
 .projects{
     display: grid;
-    grid-template-columns: repeat(3, 28%);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     width: 100%;
     height: auto;
+}
+
+.projects a {
+    margin: 0 auto;
 }
 
 .projects img{
