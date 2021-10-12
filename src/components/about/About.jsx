@@ -23,7 +23,7 @@ const About = () => {
                     <div className='card'>
                         <img src={front} alt='responsive' />
                         <h5>Front-end</h5>
-                        <p className='about-p'>HTML5, CSS3, Javascript, <br /> bootstrap, React, Git</p>
+                        <p className='about-p'>HTML5, CSS3, Javascript, <br /> SASS, bootstrap, React, Git</p>
                     </div>
                     <div className='card'>
                         <img src={back} alt='responsive' />
